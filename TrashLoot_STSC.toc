@@ -1,0 +1,7 @@
+## Interface: 11200
+## Title: TrashLoot_STSC
+## Author: Aubreykun
+## Notes: Auto-Needs/Passes on common green Strat and Scholo items. Based on BMLoot Addon by McPewPew
+## Version: 0.0001
+
+TrashLoot_STSC.lua
