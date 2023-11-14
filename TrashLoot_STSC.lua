@@ -13,11 +13,9 @@ TrashLoot_STSC:SetScript("OnEvent", function()
         elseif name == "Frayed Abomination Stitching" and GetZoneText() == "Stratholme" then
             RollOnLoot(rollID, 0)
         elseif name == "Corruptor's Scourgestone" or name = "Essence of Undeath" or name == "Dark Rune" and GetZoneText() == "Scholomance" then
-            DEFAULT_CHAT_FRAME:AddMessage("Rolling 'need' on "..name)  -- just for debug
             RollOnLoot(rollID, 1)
 			StaticPopup1Button1:Click()
         elseif name == "Skin of Shadow" and GetZoneText() == "Scholomance" then
-            DEFAULT_CHAT_FRAME:AddMessage("Passing on "..name)  -- just for debug
             RollOnLoot(rollID, 0)
         end
 	elseif event == "ZONE_CHANGED_NEW_AREA" then
